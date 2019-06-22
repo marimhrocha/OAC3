@@ -1,0 +1,16 @@
+int main()
+{
+
+    int a,b, produto;
+
+    printf("digite o numero A:");
+    scanf("%d", &a);
+    printf("digite o numero B:");
+    scanf("%d", &b);
+
+    produto = a*b;
+
+    printf("produto:%d", produto);
+    return 0;
+}
+
