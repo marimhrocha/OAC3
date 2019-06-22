@@ -1,0 +1,21 @@
+int main()
+{
+    int a,b,aux,c,n;
+
+    a=0;
+    b=1;
+
+    printf("digite um numero:");
+    scanf("%d", &n);
+    printf("serie de fibonacci:\n");
+    printf("%d\n", b);
+
+    for(c=0; c<n; c++){
+        aux=a+b;
+        a=b;
+        b=aux;
+
+    printf("%d\n", aux);
+    }
+    return 0;
+}
